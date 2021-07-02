@@ -1,0 +1,18 @@
+.userlist {
+    margin: 2rem auto;
+    padding: 1rem;
+    width: 90%;
+    max-width: 40rem;
+ background-color: yellow;
+  }
+
+  .userlist ul {
+    list-style: none;
+    padding: 1rem;
+  }
+
+  .userlist li {
+    border: 1px solid rgb(115, 113, 113);
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+  }

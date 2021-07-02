@@ -1,24 +1,37 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {useState} from 'react';
+import AddUser from './components/User/AddUser';
+import style from './App.module.css';
+import Userlist from './components/User/Userlist';
+import { v1 } from 'uuid';
+
+type UserType = {
+  id: string,
+  userName: string,
+  userAge: string
+}
+
+
 
 function App() {
+
+  const [users, setUsers] = useState<any[]>([]);
+
+  function onAddUser (enteredUsername: string, enteredUserage: string) {
+
+      let newUser = {
+          id: v1(),
+          userName: enteredUsername,
+          userAge: enteredUserage
+      }
+      setUsers((users) => {
+        return [...users, newUser]
+      });
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={style.app}>
+      <AddUser onAddUsersHandler = {onAddUser} />
+      <Userlist userlist={users}/>
     </div>
   );
 }
