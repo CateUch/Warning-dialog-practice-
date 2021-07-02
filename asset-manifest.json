@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Warning-dialog-practice-/static/css/main.d9bb48c5.chunk.css",
+    "main.js": "/Warning-dialog-practice-/static/js/main.25b36d48.chunk.js",
+    "main.js.map": "/Warning-dialog-practice-/static/js/main.25b36d48.chunk.js.map",
+    "runtime-main.js": "/Warning-dialog-practice-/static/js/runtime-main.754b1774.js",
+    "runtime-main.js.map": "/Warning-dialog-practice-/static/js/runtime-main.754b1774.js.map",
+    "static/js/2.9fceb33b.chunk.js": "/Warning-dialog-practice-/static/js/2.9fceb33b.chunk.js",
+    "static/js/2.9fceb33b.chunk.js.map": "/Warning-dialog-practice-/static/js/2.9fceb33b.chunk.js.map",
+    "static/js/3.0fae6452.chunk.js": "/Warning-dialog-practice-/static/js/3.0fae6452.chunk.js",
+    "static/js/3.0fae6452.chunk.js.map": "/Warning-dialog-practice-/static/js/3.0fae6452.chunk.js.map",
+    "index.html": "/Warning-dialog-practice-/index.html",
+    "static/css/main.d9bb48c5.chunk.css.map": "/Warning-dialog-practice-/static/css/main.d9bb48c5.chunk.css.map",
+    "static/js/2.9fceb33b.chunk.js.LICENSE.txt": "/Warning-dialog-practice-/static/js/2.9fceb33b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.754b1774.js",
+    "static/js/2.9fceb33b.chunk.js",
+    "static/css/main.d9bb48c5.chunk.css",
+    "static/js/main.25b36d48.chunk.js"
+  ]
+}
